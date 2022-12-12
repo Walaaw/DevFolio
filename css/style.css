@@ -25,6 +25,9 @@ body {
   content: "";
   animation: typing 2s infinite;
 }
+.bordericon{
+  width: fit-content;
+}
 .bordericon::after{
   content: "";
   position: absolute;
@@ -34,6 +37,9 @@ body {
   left: 10px;
   top: 100%;
   transition: all 1s;
+}
+.fixedicon{
+  width: fit-content;
 }
 .fixedicon::after{
   content: "";
@@ -52,20 +58,35 @@ body {
   0% {
     content: "de|";
   }
-  20% {
+  10% {
     content: "dev";
   }
-  40% {
+  20% {
     content: "devo|";
   }
-  60% {
+  30% {
     content: "devolp";
   }
-  80% {
+  40% {
     content: "devolpe|";
   }
-  100% {
+  50% {
     content: "devolper";
+  }
+  60% {
+    content: "d|";
+  }
+  70% {
+    content: "de";
+  }
+  80% {
+    content: "desi|";
+  }
+  90% {
+    content: "design";
+  }
+  100% {
+    content: "designer";
   }
 }
 /* -----------------------start about me----------------------------------------- */
