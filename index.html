@@ -12,19 +12,19 @@
 
   <body>
     <!-- ------------start navbar--------------------------------- -->
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg   fixed-top">
       <div class="container">
         <a class="navbar-brand text-white" href="#">DevFolio</a>
         <button
-          class="navbar-toggler"
-          type="button"
+          class="navbar-toggler bg-info"
+          type="button "
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon "></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -68,30 +68,6 @@
                 >BLOG
               </a>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link pb-1 active dropdown-toggle text-white fs"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown- text-white" href="#">Action</a></li>
-                <li>
-                  <a class="dropdown-item text-white" href="#"
-                    >Another action</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item text-white" href="#"
-                    >Something else here</a
-                  >
-                </li>
-              </ul>
-            </li>
             <li class="nav-item bordericonparent">
               <a
                 class="nav-link bordericon position-relative active text-white fs pb-1"
@@ -123,12 +99,11 @@
       <div class="container bg-white">
         <div class="row g-3 p-5">
           <div class="col-md-6">
-            <div class="right">
-              <div class="row g-3">
-                <div class="col-md-4 pt-2">
-                  <img src="images/testimonial-2.jpg" alt="" class="rounded" />
+              <div class="row g-4">
+                <div class="col-lg-4 pt-2">
+                  <img src="images/testimonial-2.jpg" alt="img" class="rounded w-100" />
                 </div>
-                <div class="col-md-8">
+                <div class="col-lg-8 ">
                   <div class="info">
                     <ul class="list-unstyled">
                       <li class="p-2">
@@ -139,7 +114,7 @@
                         <span class="fw-bold">Profile:</span>
                         <span>full stack developer</span>
                       </li>
-                      <li class="p-2">
+                      <li class="p-2 ">
                         <span class="fw-bold">Email:</span>
                         <span>contact@example.com</span>
                       </li>
@@ -206,9 +181,10 @@
                   </div>
                 </div>
               </div>
-            </div>
+            
           </div>
           <div class="col-md-6">
+           <div class="data">
             <h2 class="aboutborder position-relative pb-2">About me</h2>
             <p class="mt-5 text-muted">
               Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
@@ -227,6 +203,7 @@
               lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt.
               Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
             </p>
+           </div>
           </div>
         </div>
       </div>
@@ -849,7 +826,8 @@
       </div>
     </section>
     <!-- ----------------end footer------------------------- -->
-
+    <script src="./javascript/jquery-3.6.1.min.js"></script>
     <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="./javascript/main.js"></script>
   </body>
 </html>

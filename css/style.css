@@ -8,9 +8,6 @@ body {
 }
 /* -------------------end general----------------- */
 /* ---------------------start header--------------------------  */
-.navbar {
-  background-color: transparent !important;
-}
 .home {
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
